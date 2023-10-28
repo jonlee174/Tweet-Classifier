@@ -27,6 +27,6 @@ predictions = classifier.predict(test_counts)
 #print(accuracy_score(test_labels, predictions))
 #print(confusion_matrix(test_labels, predictions))
 
-tweet = "I support the american Second Amendment"
+tweet = "My favourite colour is blue"
 tweet_counts = counter.transform([tweet])
 print(classifier.predict(tweet_counts))
